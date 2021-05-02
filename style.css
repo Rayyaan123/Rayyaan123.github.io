@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+.start {
+  text-align: center;
+  justify-content: center;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 300px;
+  height: auto;
+}
+.item img {
+  opacity: 0.08;
+}
+.item:hover img {
+  opacity: 1;
+  transform: scale(1.2);
+}
